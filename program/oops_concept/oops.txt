@@ -1,0 +1,12 @@
+oops: object oriented programing system
+
+class
+object
+encapsulation
+inheritance
+data abstraction
+polymorphism
+
+class: class is a collection of datamember(variable) and member functions (method or function)isn single entity.
+
+object : variable of class - using of object we can access properties of class.

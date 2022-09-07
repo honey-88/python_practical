@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <style>
+            body
+            {
+                background-color: gray;
+                width: 100%;
+            }
+            table
+            {
+                margin: 20px;
+            }
+            tr,td,th
+            {
+                padding: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <form action="" method="post">
+        <table>
+            <tr>
+                <td>First Name</td>
+                <td><input type="text" placeholder="Enter Name" name="Firstname"></td>
+            </tr>
+            <tr>
+                <td>Last Name</td>
+                <td><input type="text" placeholder="Enter Lastname" name="Lastname" /></td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td><input type="email" placeholder="Enter Email" name="email" required></td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td><input type="password" placeholder="Enter password" name="password" required></td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td>
+                    <input type="radio" name="gender" value="male" >male
+                    <input type="radio" name="gender" value="female" >female
+                </td>
+            <tr>
+                <td>Subject</td>
+                <td>
+                    <input type="checkbox" value="C" name="c_chk">C language
+                    <input type="checkbox" value="C++" name="c++_chk">C++
+                </td>
+            </tr>
+            <tr>
+                <td>Suggestion</td>
+                <td>
+                    <textarea rows="10" cols="20" placeholder="Enter suggestion"></textarea>
+                </td>
+            </tr>
+                <td></td>
+                <td><input type="submit" name="submit" /></td>
+        </table>
+        </form>
+        </body>
+        </html>
